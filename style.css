@@ -1,0 +1,133 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: black;
+      color: white;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: black;
+      padding: 15px 40px;
+    }
+
+    .navbar img {
+      width: 40px;
+    }
+
+    .navbar ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+    }
+
+    .navbar ul li {
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Section title */
+    .section-title {
+      background: white;
+      color: black;
+      padding: 10px 40px;
+      margin: 30px auto;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Position examples */
+    .position-examples {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      margin: 40px 0;
+    }
+
+    .box {
+      position: relative;
+      width: 120px;
+      height: 120px;
+    }
+
+    .relative {
+      width: 120px;
+      height: 120px;
+      background: limegreen;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    .absolute {
+      width: 120px;
+      height: 120px;
+      background: red;
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    .middle .absolute {
+      border-radius: 50%;
+      width: 160px;
+      height: 100px;
+      left: -20px;
+      top: -40px;
+    }
+
+    /* Information Section */
+    .information {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .info-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    .info-box {
+      width: 200px;
+      height: 200px;
+      background: brown;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .info-box img {
+      width: 100%;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
